@@ -22,5 +22,4 @@ public class Aritmetico {
 		result = result % 7;
 		System.out.println(result);
 	}
-
 }
