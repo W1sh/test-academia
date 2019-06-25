@@ -2,7 +2,7 @@ package pt.com.everis.academia.java;
 
 public class PrimeiraClass {
 
-	public static void main(String[] args) {
+	public static void main(String[] args){
 		System.out.println("Nossa primeira classe");
 		
 		long lo = 91919191919191L;
@@ -46,5 +46,6 @@ public class PrimeiraClass {
 		System.out.println(d3.intValue());
 		System.out.println(d3.longValue());
 		System.out.println(d3.shortValue());
+		
 	}
 }
