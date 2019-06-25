@@ -9,7 +9,7 @@ public class PrimeiraClass {
 		int in = (int) lo;
 		System.out.println(in);
 		
-		// ------------ Wrappers ------------
+		// ------------ Wrappers Ex 1 ------------
 		
 		Boolean b = new Boolean(true);
 		Boolean b2 = new Boolean("false");
@@ -36,5 +36,15 @@ public class PrimeiraClass {
 		short s1 = 100;
 		Short s2 = new Short(s1);
 		Short s3 = new Short("100");
+		
+		// ------------ Wrappers Ex 2 ------------
+		
+		Double d3 = new Double(6.333);
+		System.out.println(d3.byteValue());
+		System.out.println(d3.doubleValue());
+		System.out.println(d3.floatValue());
+		System.out.println(d3.intValue());
+		System.out.println(d3.longValue());
+		System.out.println(d3.shortValue());
 	}
 }
