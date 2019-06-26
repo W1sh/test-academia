@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Stack;
 import java.util.TreeSet;
 
-public class ExemplosArrays {
+public class Exemplos {
 
 	public static void main(String[] args) {
 		int[] array = new int[5];
