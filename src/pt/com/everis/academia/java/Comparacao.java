@@ -12,6 +12,5 @@ public class Comparacao {
 		System.out.println("obj2 instanceof Pai: " + (obj2 instanceof Pai));
 		System.out.println("obj2 instanceof Filho: " + (obj2 instanceof Filho));
 		System.out.println("obj2 instanceof Interface: " + (obj2 instanceof Interface));
-	}
-
+	}	
 }
