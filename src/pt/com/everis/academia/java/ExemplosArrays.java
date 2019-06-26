@@ -1,6 +1,8 @@
 package pt.com.everis.academia.java;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class ExemplosArrays {
 
@@ -20,5 +22,19 @@ public class ExemplosArrays {
 		System.out.println(Arrays.toString(array));
 	
 		System.out.println(Arrays.toString(newArray));
+		
+		ArrayList<Integer> ints = new ArrayList<>();
+		ints.add(new Integer(2));
+		ints.add(2);
+		
+		System.out.println(ints);
+		
+		List list = new ArrayList<>();
+		list.add(1);
+		list.add("A");
+		list.add("B");
+		list.forEach(System.out::println);
+		list.removeIf(k -> k instanceof String);
+		System.out.println(list);
 	}
 }

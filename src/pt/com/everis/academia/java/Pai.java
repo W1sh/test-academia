@@ -37,7 +37,7 @@ public class Pai implements Comparable<Pai>{
 
 	@Override
 	public int compareTo(Pai o) {
-		return this.id - o.id;
+		return this.id.compareTo(o.getId());
 	}
 
 	@Override
