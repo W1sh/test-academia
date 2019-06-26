@@ -5,6 +5,7 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Stack;
+import java.util.TreeSet;
 
 public class ExemplosArrays {
 
@@ -71,5 +72,17 @@ public class ExemplosArrays {
 		System.out.println(stack.peek());
 		System.out.println(stack.pop());
 		System.out.println(stack);
+
+		TreeSet set = new TreeSet<>();
+		set.add(100);
+		set.add(200);
+		set.add(300);
+		set.add(400);
+		set.add(500);
+		set.add(600);
+
+		System.out.println(set.headSet(300));
+		System.out.println(set.tailSet(300));
+		System.out.println(set.subSet(100, 450));
 	}
 }
