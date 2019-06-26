@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Stack;
 
 public class ExemplosArrays {
 
@@ -60,5 +61,15 @@ public class ExemplosArrays {
 		Object[] arrayObjects = list2.toArray();
 
 		System.out.println(Arrays.toString(arrayObjects));
+
+		Stack stack = new Stack<>();
+		stack.push(1);
+		stack.push("B");
+		stack.push("A");
+
+		System.out.println(stack);
+		System.out.println(stack.peek());
+		System.out.println(stack.pop());
+		System.out.println(stack);
 	}
 }
