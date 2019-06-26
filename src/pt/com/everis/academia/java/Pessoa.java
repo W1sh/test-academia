@@ -1,5 +1,6 @@
 package pt.com.everis.academia.java;
 
+import java.util.ArrayDeque;
 import java.util.PriorityQueue;
 import java.util.Queue;
 
@@ -17,6 +18,17 @@ public class Pessoa {
 		queue.add(new Pessoa("Anastacio", 40));
 
 		System.out.println(queue.peek());
+
+		ArrayDeque<Pessoa> deque = new ArrayDeque<>();
+		deque.addFirst(new Pessoa("Ana", 18));
+		deque.addFirst(new Pessoa("Andreia", 25));
+		deque.addLast(new Pessoa("Andre", 30));
+		deque.addFirst(new Pessoa("Antonio", 50));
+		deque.addFirst(new Pessoa("Anastacio", 40));
+
+		System.out.println(deque.peek());
+		System.out.println(deque.getLast());
+		System.out.println(deque.getFirst());
 	}
 
 	public String getNome() {
